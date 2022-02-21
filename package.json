@@ -1,0 +1,15 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mapxn <16299874+mapxn@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35",
+    "vuepress-plugin-comment2": "^2.0.0-alpha.32"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
