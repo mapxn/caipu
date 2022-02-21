@@ -8,17 +8,23 @@ export default defineUserConfig<DefaultThemeOptions>({
     lang: 'zh-CN',
     title: '家常菜谱',
     description: '实用菜谱，记录美味家常菜做法。',
+    
     head: [
           ['link', { rel: 'manifest', href: '/manifest.webmanifest' },],
           ['link', { rel: 'icon', href: '/images/favicon.ico' }],
           ['meta', { name: 'theme-color', content: '#3eaf7c' }],
           // ...其他标签
     ],
+    
     plugins: [
         comment({
             type: 'waline',
             comment: true,
-            serverURL: 'https://comment.caipu.ml'
+            serverURL: 'https://comment.caipu.ml',
+            lang: 'zh',
+            locale: {
+                placeholder: '好吃你就夸夸我',
+            }
         })
     ],
     // 主题和它的配置
@@ -31,6 +37,8 @@ export default defineUserConfig<DefaultThemeOptions>({
             link: 'https://mapxn.ml',
         }],
         sidebarDepth: 0,
+        contributors: false,
+        lastUpdated: false,
         sidebar: [{
             text: '关于',
             link: '/',
