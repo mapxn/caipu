@@ -6,7 +6,7 @@ import { comment } from "vuepress-plugin-comment2"
 export default defineUserConfig<DefaultThemeOptions>({
     // 站点配置
     lang: 'zh-CN',
-    title: '家常菜谱',
+    title: '我家菜谱',
     description: '实用菜谱，记录美味家常菜做法。',
     
     head: [
