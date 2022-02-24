@@ -22,6 +22,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             comment: true,
             serverURL: 'https://comment.caipu.ml',
             lang: 'zh',
+            copyright: false,
             locale: {
                 placeholder: '好吃你就夸夸我',
             }
