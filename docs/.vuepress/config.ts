@@ -1,6 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
-import { comment } from "vuepress-plugin-comment2"
+import { commentPlugin } from "vuepress-plugin-comment2"
 
 
 export default defineUserConfig<DefaultThemeOptions>({
