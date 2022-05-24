@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.35",
-    "vuepress-plugin-comment2": "^2.0.0-alpha.32"
+    "vuepress-plugin-comment2": "^2.0.0-beta.71"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
