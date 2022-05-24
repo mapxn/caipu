@@ -3,7 +3,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 import { commentPlugin } from "vuepress-plugin-comment2"
 
 
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
     // 站点配置
     lang: 'zh-CN',
     title: '我家菜谱',
