@@ -17,7 +17,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
     
     plugins: [
-        comment({
+        commentPlugin({
             type: 'waline',
             comment: true,
             serverURL: 'https://comment.caipu.ml',
