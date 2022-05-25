@@ -20,6 +20,7 @@ export default defineUserConfig({
       type: "waline",
       comment: true,
       serverURL: "https://comment.caipu.ml",
+      requiredMeta: ['nick'],
       lang: "zh",
       copyright: false,
       locale: {
