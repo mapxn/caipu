@@ -1,0 +1,1 @@
+const e={key:"v-1a9a523f",path:"/Steamed/%E6%B8%85%E8%92%B8%E9%B1%BC.html",title:"\u6E05\u84B8\u9C7C",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u6B65\u9AA4",slug:"\u6B65\u9AA4",children:[]},{level:2,title:"\u53C2\u8003",slug:"\u53C2\u8003",children:[]}],git:{},filePathRelative:"Steamed/\u6E05\u84B8\u9C7C.md"};export{e as data};
